@@ -6,7 +6,7 @@ export const Hero = () => {
     <div >
       <div >
         <h2 >
-          Discover Unique Handcrafted Treasures
+          Discover Unique KalaBazzer Treasures
         </h2>
         <p >
           Explore a curated collection of artisan-made goods from around the world. Each 
