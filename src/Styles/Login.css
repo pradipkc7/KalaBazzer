@@ -215,3 +215,17 @@
         font-size: 24px;
     }
 }
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+.link-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
