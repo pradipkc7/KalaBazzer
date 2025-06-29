@@ -1,7 +1,7 @@
 const Images = require("../../models/Image");
 const categories = require("../../models/category");
 const product = require("../../models/product");
-
+const express = require("express");
 const getProductByCategory = async (req, res) => {
   const category = req.params.name.toLowerCase();
   try {
@@ -147,7 +147,6 @@ const deleteProduct = async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 };
-
 module.exports = {
   getProductByCategory,
   addProduct,
