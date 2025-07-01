@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
+const express = require("express");
 dotenv.config();
 
 // Middleware to verify JWT token
