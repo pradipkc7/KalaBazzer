@@ -1,4 +1,5 @@
 const { User } = require("../../models/index");
+const express = require("express");
 
 /**
  *  fetch all users
