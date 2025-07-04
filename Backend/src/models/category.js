@@ -1,6 +1,6 @@
 const { DataTypes } = require("sequelize");
 const { sequelize } = require("../database/index");
-
+const express = require("express");
 const categories = sequelize.define(
   "categories",
   {
