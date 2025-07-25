@@ -1,5 +1,6 @@
 const bcrypt = require("bcrypt");
 const crypto = require("crypto");
+const express = require("express");
 describe("Security Tests", () => {
   describe("Password Hashing", () => {
     it("should hash passwords correctly", async () => {
