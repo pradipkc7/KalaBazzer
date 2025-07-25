@@ -1,5 +1,6 @@
 const Sequelize = require("sequelize");
 require("dotenv").config();
+const express = require("express");
 
 const dbMock = new Sequelize(
   process.env.DB_NAME,
