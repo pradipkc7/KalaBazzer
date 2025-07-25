@@ -1,3 +1,4 @@
+const express = require("express");
 jest.mock("../models/product.js", () => ({
   findAll: jest.fn(),
   create: jest.fn(),
