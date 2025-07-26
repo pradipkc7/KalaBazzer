@@ -1,3 +1,4 @@
+const express = require("express");
 jest.mock("../models/index", () => ({
   User: {
     findAll: jest.fn(),
