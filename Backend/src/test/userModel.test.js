@@ -1,5 +1,6 @@
 const { User } = require("../models/user/User");
 const Sequelize = require("sequelize");
+const express = require("express");
 require("dotenv").config();
 
 const dbMock = new Sequelize(
