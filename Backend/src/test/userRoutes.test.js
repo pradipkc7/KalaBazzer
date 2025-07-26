@@ -1,5 +1,6 @@
 const request = require("supertest");
 const app = require("../index").default;
+const express = require("express");
 
 describe("User Routes", () => {
   let testUser = {
