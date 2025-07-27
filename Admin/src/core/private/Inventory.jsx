@@ -15,6 +15,7 @@ import { getAllProducts } from "../../services/productApi";
 const InventorySection = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
+  const [inventory, setInventory] = useState([]);
   const [inventoryItems, setInventoryItems] = useState([]);
   useEffect(() => {
     // Fetch inventory items from API or state management
