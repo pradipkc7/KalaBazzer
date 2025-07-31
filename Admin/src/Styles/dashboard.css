@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  width: 220px;
+  background: #ffffff;
+  border-right: 1px solid #eee;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-header input {
+  width: 50%;
+  padding: 8px;
+}
+
+.profile-info {
+  font-weight: bold;
+}
+
+.overview {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card.green {
+  border-left: 5px solid #28a745;
+}
+
+.card.blue {
+  border-left: 5px solid #007bff;
+}
+
+.card.purple {
+  border-left: 5px solid #6f42c1;
+}
+
+.card.orange {
+  border-left: 5px solid #fd7e14;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.orders,
+.products {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+}
+
+.status.completed {
+  background: #28a745;
+}
+
+.status.processing {
+  background: #17a2b8;
+}
+
+.status.shipped {
+  background: #6f42c1;
+}
+
+.status.pending {
+  background: #ffc107;
+  color: black;
+}
+
+.form-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-section input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.form-section button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
